@@ -47,8 +47,8 @@
 //     }
 
 //Methods, Revisited
-const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
-console.log(favMovies[8])
+// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// console.log(favMovies[8])
 
 // favMovies.sort();
 // favMovies.pop();
@@ -60,10 +60,20 @@ console.log(favMovies[8])
 
 //console.log(animals.slice(2));
 
-var half_length = Math.ceil(favMovies.length / 2);    
+// var half_length = Math.ceil(favMovies.length / 2);    
 
-var RightSide = favMovies.slice(half_length,favMovies.length);
+// var RightSide = favMovies.slice(half_length,favMovies.length);
 
-console.log(RightSide);
+// console.log(RightSide);
+
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                    ["Lucinda", "Jacc", "Neff", "Snoop"],
+                    ["Petunia", ["Baked Goods", "Waldo"]]];
+
+                    //whereIsWaldo.splice(1, 0, 'Feb');
+                    whereIsWaldo.slice((0,0),3);
+
+                    console.log(whereIsWaldo);
+
 
 
